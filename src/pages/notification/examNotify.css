@@ -1,0 +1,51 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.news-head {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.rendered-comp {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding-left: 5%;
+}
+
+.notification-newsContainer {
+    width: 100%;
+}
+
+.notifynews-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 3%;
+    gap: 5%;
+    box-shadow: 0 0 3px gray;
+}
+
+.notifynews-section {
+    width: 100%;
+}
+
+.notifynews-title {
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 3%;
+}
+.notifynews-content{
+    font-size: 17px;
+    
+}
+
+#careernews-img{
+    margin: 3%;
+    padding-left: 0%;
+    width: 290px;
+    height: 245px;
+
+}

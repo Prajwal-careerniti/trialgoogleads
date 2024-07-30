@@ -1,0 +1,151 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.priPolicy-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.priPolicy-head {
+
+    padding: 0%;
+}
+
+#priPolicy-head {
+    font-size: 36px;
+    color: #EC8623;
+}
+
+.priPolicy-section {
+    margin-top: 2%;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.priPolicy-list {
+    list-style-type: disc;
+}
+
+
+/* ***********media query*********** */
+
+
+@media (min-width: 1100px) and (max-width: 1200px) {
+    .priPolicy-container {
+
+        margin-top: 6%;
+    }
+
+    #priPolicy-head {
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+    .priPolicy-container {
+
+        margin-top: 8%;
+    }
+
+    #priPolicy-head {
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1000px) {
+    .priPolicy-container {
+
+        margin-top: 10%;
+    }
+
+    #priPolicy-head {
+        font-size: 34px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 900px) {
+    .priPolicy-container {
+
+        margin-top: 10%;
+    }
+
+    #priPolicy-head {
+        font-size: 32px;
+    }
+}
+
+
+
+@media (min-width: 700px) and (max-width: 800px) {
+    .priPolicy-container {
+
+        margin-top: 10%;
+    }
+
+    #priPolicy-head {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 700px) {
+    .priPolicy-container {
+
+        margin-top: 15%;
+    }
+
+    #priPolicy-head {
+        font-size: 28px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 600px) {
+    .priPolicy-container {
+
+        margin-top: 15%;
+    }
+
+    #priPolicy-head {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 500px) {
+    .priPolicy-container {
+
+        margin-top: 20%;
+    }
+
+    #priPolicy-head {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+    .priPolicy-container {
+
+        margin-top: 25%;
+    }
+
+    #priPolicy-head {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 300px) {
+    .priPolicy-container {
+
+        margin-top: 30%;
+    }
+
+    #priPolicy-head {
+        font-size: 20px;
+    }
+
+
+}

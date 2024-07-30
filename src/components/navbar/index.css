@@ -1,0 +1,283 @@
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 540;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    padding-left: 3%;
+    padding-right: 3%;
+    /* background-color: brown; */
+}
+
+.nav-bar {
+    display: inline-flex;
+    width: 100%;
+    gap: 0;
+}
+
+.navbar-nav {
+    margin-left: 0;
+    float: right;
+    padding-right: 0%;
+    padding-left: 0%;
+    margin-right: 0%;
+    text-align: right;
+    width: 100%;
+    font-weight: 200;
+}
+
+.logo1 {
+    float: left;
+    height: 60px;
+}
+
+img {
+    padding-left: 7%;
+}
+
+.navbar-nav a {
+    color: #161616;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+    line-height: normal;
+    text-decoration: none;
+    float: right;
+    cursor: pointer;
+}
+
+
+ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.login-btn {
+    line-height: normal;
+    margin-left: 0%;
+    outline: 1px solid #EC8623;
+    color: #EC8623;
+}
+
+#login-btn {
+    width: 110px;
+    outline: 1px solid #EC8623;
+}
+
+#menu-icon {
+    color: black;
+}
+
+.navbar-nav {
+    padding-left: 8%;
+    font-weight: 400;
+}
+
+.login-div{
+margin-top: 0%;
+color: #EC8623;
+}
+/* ....................................................................................... */
+
+@media (min-width: 1366px) {
+    .navbar-nav {
+        margin-right: none;
+        padding-left: 2%;
+        padding-right: 0;
+    }
+
+    .nav-bar {
+        padding-right: 0%;
+        gap: 4%
+    }
+
+    .logo1 {
+        width: 20%;
+    }
+
+    .nav-title  {
+        width: 100%;
+    }
+    #navbar-list{
+        gap: 2%;
+    }
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+}
+
+
+@media (min-width: 1236px) and (max-width: 1365px) {
+    .navbar-nav {
+        padding-left: 6%;
+
+    }
+
+    .nav-bar {
+        gap: 9%
+    }
+
+    .logo1 {
+        width: 35%;
+    }
+
+    .nav-title {
+        width: 65%;
+    }
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+@media (min-width: 1236px) and (max-width: 1336px) {
+    .navbar-nav {
+        padding-left: 3%;
+    }
+
+    .nav-bar {
+        gap: 5%
+    }
+
+    .logo1 {
+        width: 35%;
+    }
+
+    .nav-title {
+        width: 65%;
+    }
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+
+@media (min-width: 1150px) and (max-width: 1236px) {
+    .navbar-nav {
+        padding-left: 5%;
+    }
+
+    .nav-bar {
+        gap: 4%
+    }
+
+    .logo1 {
+        width: 27%;
+    }
+
+    .nav-title {
+        width: 73%;
+    }
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 1115px) and (max-width: 1150px) {
+    .navbar-nav {
+        padding-left: 5%;
+    }
+
+    .nav-bar {
+        gap: 4%
+    }
+
+    .logo1 {
+        width: 27%;
+    }
+
+    .nav-title {
+        width: 73%;
+    }
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 998px) and (max-width: 1115px) {
+    .navbar-nav {
+        padding-left: 4%;
+    }
+
+    .nav-bar {
+        gap: 4%
+    }
+
+    .logo1 {
+        width: 18%;
+    }
+
+    .nav-title {
+        width: 82%;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 998px) {
+    .navbar-nav {
+        padding-left: 4%;
+    }
+
+    .nav-bar {
+        gap: 4%
+    }
+
+    .logo1 {
+        width: 18%;
+    }
+
+    .nav-title {
+        width: 82%;
+    }
+
+}
+
+
+@media (max-width: 700px) {
+    #login-btn{
+      margin-left: 43%;
+    }
+    
+    .login-div{
+        color: #EC8623;
+    }
+    .custom-enquiry-modal{
+        margin-top: 40%;
+    }
+}
+@media (max-width: 415px){
+    #login-btn{
+      margin-left: 35%;
+    }
+}

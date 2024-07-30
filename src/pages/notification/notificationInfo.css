@@ -1,0 +1,5 @@
+.notification-div {
+  margin-top: 100px;
+  display: flex;
+  gap: 100px;
+}

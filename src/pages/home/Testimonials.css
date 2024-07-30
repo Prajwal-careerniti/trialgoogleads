@@ -1,0 +1,93 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#testimon-slider{
+    width: 1200px;
+    height: 720px;
+}
+#testimon-image {
+    padding-left: 0;
+    width: 1200px;
+    height: 720px;
+}
+.testimonials-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.testimon-slider-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--Neutral-900, #191B1F);
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    line-height: normal;
+}
+.testimon-section{
+    display: flex;
+    width: 100%;
+    gap: 3%;
+}
+.section-left{
+    float: left;
+    width: 150%;
+    height: fit-content;   
+}
+.section-right{
+    float: right;
+    width: 150%;
+    height: fit-content;
+}
+.testimon-profileImg{
+    margin-top: -85%;
+}
+#testimon-profileImg{
+    border-radius: 50%;
+}
+.testimon-Card{
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+    padding-top: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    background-color: #F3F3F3;
+}
+.testimoncard-content{
+    margin-top: 10%;
+}
+#testimon-name{
+    text-align: center;
+    color: #EC8623;
+    font-size: 20;
+    font-weight: bold;
+}
+#testimon-college{
+    text-align: center;
+    color: #1F1E1E;
+    font-size: 14;
+}
+#testimon-text{
+    font-size: 20;
+    color: #161616;
+    padding-top: 5%;
+}
+#spltestimon-text{
+    padding-bottom: 12%;
+}
+
+#testimon-rating{
+    padding-top: 10%;
+}
+#Idtestimon-rating{
+    padding-top: 30%;
+}
+#testomon-indicators{
+    padding-top: 20%;
+}

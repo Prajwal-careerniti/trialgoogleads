@@ -1,0 +1,25 @@
+.expanded-info-block {
+    display: none;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 300px;
+    z-index: 1;
+  }
+  
+  .expanded-info-block h2 {
+    margin-bottom: 10px;
+  }
+  
+  .expanded-info-block p {
+    margin: 0;
+  }
+  
+  .expanded-info-block.active {
+    display: block;
+  }
+  
